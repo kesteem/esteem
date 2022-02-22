@@ -1,0 +1,235 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #fafafa;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.sysLoginInp{
+
+    padding: 5px;
+    margin: 15px 0;
+    width: 100%;
+    display: block;
+}
+
+
+
+
+/*Header*/
+
+header{
+    padding: 5px;
+    background-color: #000;
+}
+header nav .left{
+color: #0cc1f3;
+    float: left;
+    font-weight: bold;
+    font-size: 21px;
+
+}
+
+header nav .right{
+    float: right;
+    color: #fff;
+    font-size: 21px;
+
+}
+header nav a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+}
+header::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+
+/* */
+
+
+.home .reasons{
+    margin: 25px 0;
+    display: flex;
+    text-align: center;
+}
+.home .reasons::after{
+    display: block;
+    content: ' ';
+    clear: both;
+}
+.home .reason{
+
+    display: inline-block;
+    width: 400px;
+    margin: 0 7px;
+}
+.home .reason .icon{
+    font-size: 10vw;
+    color: #0c9d58
+}
+
+.home .reason .title{
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 4px 0;
+}
+
+.home .reason .more{
+   font-size: 15px;
+    font-weight: lighter;
+}
+
+
+.home .InvestmentPlans{
+
+   background-image:linear-gradient(50deg, #7E8B89,#000);
+}
+
+.InvestmentPlan >* {
+    padding: 18px 0;
+}
+
+
+ .InvestmentPlan{
+    background-color:#fff;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    min-width: 200px;
+    padding: 10px;
+}
+
+ .InvestmentPlan .title{
+    font-weight: bolder;
+    font-size: 2rem;
+
+}
+
+.InvestmentPlan .min{
+    font-weight: bolder;
+
+
+}
+ .InvestmentPlan .min{
+    font-weight: bolder;
+
+}
+
+.InvestmentPlan .investLink{
+
+   display: block;
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+
+.home .profitCalculator{
+
+    padding: 50px 0;
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    background-image:linear-gradient(20deg,#D6AFD2,#7E8B89);
+}
+
+.home .profitCalculator .icon{
+
+    font-size: 200px;
+}
+
+
+.home .whereInvests{
+    overflow: auto;
+    margin: 5px;
+    width: 100%;
+    justify-content: left;
+    display: flex;
+
+
+}
+.home .whereInvests .whereInvest{
+    flex-basis: 350px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 40px;
+    margin: 5px;
+    background: #fff;
+    box-shadow: 0 0 4px 3px #cccccc;
+}
+
+.home .whereInvests .whereInvestImage{
+
+    height: 200px;
+background-position: center;
+    background-size: cover;
+
+
+}
+
+
+.home .whereInvests .title {
+font-weight: bolder;
+    font-size: 25px;
+    padding: 7px;
+
+}
+
+.home .whereInvests .subtitle {
+    color: #635E62;
+    padding: 7px;
+}
+
+.home .whereInvests .more {
+
+    padding: 7px;
+}
+
+#crypto{
+
+    background-image: url("/stock/crypto.jpg");
+}
+
+#agriculture{
+
+    background-image: url("/stock/agriculture.jpg");
+}
+
+#realestate{
+    background-image: url("/stock/realestate.jpg");
+}
+#renewenergy{
+    background-image: url("/stock/renewenergy.jpg");
+}
+
+#telecommunication{
+    background-image: url("/stock/telecommunication.jpg");
+}
+#cargo_ship{
+    background-image: url("/stock/shipping.jpg");
+
+}
+
+.home .founders {
+
+    height: 500px;
+    background-image: linear-gradient(40deg,#DAD8DA,#99E7F7);
+
+}
+
+
+

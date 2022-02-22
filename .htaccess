@@ -1,0 +1,12 @@
+<ifModule mod_gzip.c>
+mod_gzip_on Yes
+mod_gzip_dechunk Yes
+mod_gzip_item_include file \.(html?|css|php|js|txt|png)$
+</ifModule>
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.*$) esteem.php?url=$1  [QSA,L]

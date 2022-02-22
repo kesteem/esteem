@@ -1,0 +1,40 @@
+.lnk_ctx1{
+    
+    color: #0aa0ff;
+    text-decoration: none;
+    padding: 1px;
+}
+.lnk_ctx1:hover{
+    cursor: pointer;
+    border-bottom: solid 1px;
+}
+
+
+
+
+.llc1{
+padding: 10px 20px;    
+display:block;
+font-size: 15px;
+}
+.llc1:hover{
+background-color: rgb(218, 211, 211);
+}
+.llc1Icon{
+
+    
+}
+.llc1Name{
+     padding: 0 5px;
+}
+.llc1ArrRight{
+    display: block;
+    float: right;
+    color: #808080;
+}
+
+llc1ArrRight::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}

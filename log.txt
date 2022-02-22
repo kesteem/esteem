@@ -1,0 +1,10 @@
+[22-Feb-2022 01:07:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "app\resources\urls" not found in C:\xampp\htdocs\esteem\app\controllers\error\v_error.php:18
+Stack trace:
+#0 [internal function]: app\controllers\error\v_error->index()
+#1 C:\xampp\htdocs\esteem\app\core\dispatcher.php(162): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\esteem\app\core\dispatcher.php(137): app\core\dispatcher->callView()
+#3 C:\xampp\htdocs\esteem\app\core\controller.php(146): app\core\dispatcher->endProcess(500)
+#4 C:\xampp\htdocs\esteem\app\controllers\error\pc_error.php(36): app\core\controller->done(500)
+#5 C:\xampp\htdocs\esteem\esteem.php(43): app\controllers\error\pc_error->handle('Unknown error', Object(ParseError), 500, Array)
+#6 {main}
+  thrown in C:\xampp\htdocs\esteem\app\controllers\error\v_error.php on line 18

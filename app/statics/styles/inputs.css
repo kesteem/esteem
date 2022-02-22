@@ -1,0 +1,43 @@
+
+
+.input_cx1{
+
+    padding: 7px 5px;
+    border: solid 1px #808080;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.input_cx1:hover{
+
+    border: solid 1px #0aa0ff;
+}
+
+.input_cx1:focus{
+
+    border: solid 1px #0aa0ff;
+}
+
+.cx2Label{
+    border-radius: 3px;
+    position: relative;
+    display: block;
+    background-color: #FBFCFC;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.cx2LabelName{
+    position: relative;
+    font-size: 13px;
+    background:#FBFCFC;
+}
+
+.input_cx2{
+    background-color: #DEDEDE;
+    display: block;
+    padding: 10px 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+}

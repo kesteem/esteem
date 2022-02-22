@@ -1,0 +1,31 @@
+.btnCtx1{
+    
+    padding: 7px;
+    border-radius: 5px;
+    background: #fff;
+    border: solid 2px #0aa0ff;
+    color: #0aa0ff;
+}
+.btnCtx1:hover{
+    
+    color: #fff;
+     background: #0aa0ff;  
+     border: solid 2px rgba(0,0,0,0.1);
+}
+
+.btnCtx2{
+   
+ text-align: center;
+ padding: 10px 5px;
+ width: 100%;
+ background: #3366ff;
+ color: #fff;
+ border-radius: 7px;
+ border: none;
+}
+
+.btnCtx2:hover{
+    
+    
+    background: #0066ff
+}
